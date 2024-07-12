@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
 
-import Indicator from "./components/Indicator";
-import Summary from "./components/Summary";
-//import BasicTable from "./components/BasicTable";
-import WeatherChart from "./components/WeatherChart";
-import ControlPanel from "./components/ControlPanel";
+// import Indicator from "./components/Indicator";
+// import Summary from "./components/Summary";
+// //import BasicTable from "./components/BasicTable";
+// import WeatherChart from "./components/WeatherChart";
+// import ControlPanel from "./components/ControlPanel";
 
 import "./App.css";
 
