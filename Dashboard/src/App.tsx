@@ -64,6 +64,7 @@ function App() {
       dataToIndicators.push(["Precipitation", "Probabilty", probability]);
 
       
+      
 
       let pressure = forecast.getElementsByTagName("pressure")[0]?.getAttribute("value");
       dataToIndicators.push(["Pressure", "Pressure", pressure]);
@@ -87,6 +88,7 @@ function App() {
       }
 
       setIndicators(indicatorsElements);
+      selectedVariable.split;
     })();
   }, []);
 
